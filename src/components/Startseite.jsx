@@ -1,4 +1,4 @@
-// Startseite
+// Startseite /
 import { Link } from "react-router-dom";
 import styles from "../style/Startseite.module.css";
 
