@@ -8,7 +8,7 @@ function App() {
 
   return (
     
-    <BrowserRouter>
+    <BrowserRouter basename="/Wettereisstock">>
       <Routes>
         <Route path='/' element={<Startseite />} />
         <Route path='/actualWeather' element={<ActualWeather />} />
