@@ -20,8 +20,11 @@ jobs:
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
 
+      - name: Install Vite
+        run: npm install vite@latest
+
       - name: Build project
-        run: npm run build
+        run: npm run build -- --base=/Wettereisstock/
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v3
