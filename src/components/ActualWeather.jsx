@@ -43,6 +43,8 @@ export default function ActualWeather() {
                     <p>Aktuelle Temperatur: {temperatur}°C</p>
                     <p>Gefühlt: {gefuehlteTemp}°C</p>
                     <p>Aktuelles Wetter: {beschreibung}</p>
+                    <hr />
+                    <button></button>
                 </div>
             )}
 
