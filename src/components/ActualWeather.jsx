@@ -44,7 +44,7 @@ export default function ActualWeather() {
                     <p>Gefühlt: {gefuehlteTemp}°C</p>
                     <p>Aktuelles Wetter: {beschreibung}</p>
                     <hr />
-                    <button></button>
+                    <button key="weatherButton"></button>
                 </div>
             )}
 
@@ -53,7 +53,7 @@ export default function ActualWeather() {
                     <p>Verwendung nur für private Zwecke!</p>
                     <p>Alle Angaben ohne Gewähr!</p>
                     <hr />
-                    <button onClick={verstanden} className="btn">Verstanden 👍👍</button>
+                    <button onClick={verstanden} className="btn" key="dialogButton">Verstanden 👍👍</button>
                 </div>
             )}
 
